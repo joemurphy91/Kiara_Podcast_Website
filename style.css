@@ -18,6 +18,7 @@
     height: 450px;
     background-repeat: none;
     background-size: cover;
+    width: 100%;
 }
 
 .fa-bars {
@@ -28,18 +29,15 @@
 h1 {
     margin: 0;
     font-size: 70px;
-    /*background: #010434;*/
-    width: 500px;
     color: #DDF9F5;
     font-family: 'Red Hat Display', sans-serif;
 }
 
 h2 {
     font-size: 20px;
-    width: 400px;
+    width: auto;
     font-family: 'Red Hat Display', sans-serif;
     margin: 0;
-    background: black;
 }
 
 .heroText {
@@ -52,7 +50,7 @@ h3 {
     font-size: 50px;
     margin-bottom: 0;
     font-family: 'Red Hat Display', sans-serif;
-    height: 70px;
+    color: #010434;
 }
 
 h4 {
@@ -60,9 +58,8 @@ h4 {
     margin-top: 0;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 20px;
     color: #85DCD1;
-    height: 20px;
 }
 
 .podcasts {
@@ -123,6 +120,7 @@ h5 {
     font-size: 50px;
     margin: 0 0 0 20px;
     font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
 }
 
 .podcastTitle {
@@ -162,8 +160,7 @@ h5 {
     font-family: 'Red Hat Display', sans-serif;
     width: 600px;
     color: #010434;
-    background: blue;
-    border:3px solid orange;
+    
 }
 
 .signature {
@@ -182,6 +179,10 @@ h5 {
     outline: none;
 }
 
+.contact:hover {
+    background: #a1ebe2;
+}
+
 .contactLink {
     text-decoration: none;
     color: #010434;
@@ -190,26 +191,18 @@ h5 {
 }
 
 .instagramFeed {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
-    font-family: 'Red Hat Display', sans-serif;
+   margin-top: 30px;
 }
 
 .instagramPostsConatiner {
     display: flex;
-    padding-top: 35px;
+    justify-content: center;
+    margin: 30px 0 50px 0;
 }
 
 .instaPost {
     box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4);
-    margin: 0 20px 0 20px;
-}
-
-.insta-widget {
-    padding: 40px;
+    margin: 0 10px 0 10px;
 }
 
 footer {
@@ -231,5 +224,68 @@ h6 {
 
  /*   Classes go inside the block*/
     
+
+h1 {
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+h2 {
+    font-size: 15px;
+    color: white;
+    width: 180px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 15px;
+    margin: 0 15px 0 15px;
+}
+
+h5 {
+    font-size: 30px;
     
+}
+
+.podcastGroups {
+    padding: 40px 0 0 0;
+}
+
+.heroContainer {
+    background-position: center;
+}
+
+.heroText {
+    margin: 0 0 0 40px;
+    padding: 0;
+
+}
+
+.aboutText {
+    width: auto;
+    margin: 30px 0 0 0;
+}
+
+.podcastTitle {
+    font-size: 20px;
+}
+
+.hiddenTeaser {
+    width: auto;
+}
+
+.instagramPostsConatiner {
+    flex-direction: column;
+    align-items: center;
+}
+a.instaPost {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+
 }
